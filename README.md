@@ -28,8 +28,8 @@ Authenticate HTTP and REST requests via Kerberos/SPNEGO.
 compile, copy to the plugin path of ElasticSearch 
 
 ###Build and install latest
-    $ git clone https://github.com/codecentric/elasticsearch-shield-kerberos-realm.git
-    $ mvn clean package
+*     $ git clone https://github.com/yilong2001/elasticsearch-kerberos-plugin.git
+*     $ mvn clean package
 
 ###Configuration
 
