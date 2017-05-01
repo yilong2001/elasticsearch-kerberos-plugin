@@ -1,0 +1,15 @@
+grant {
+  permission java.io.FilePermission "/wholepath/http.127.0.0.1.keytab", "read";
+  permission java.util.PropertyPermission "sun.security.krb5.debug", "read,write";
+  permission java.util.PropertyPermission "*", "read,write";
+  permission javax.security.auth.AuthPermission "createLoginContext";
+  permission javax.security.auth.AuthPermission "doAs";
+  permission javax.security.auth.AuthPermission "doAsPrivileged";
+  permission javax.security.auth.AuthPermission "modifyPrincipals";
+  permission javax.security.auth.AuthPermission "getSubject";
+  permission javax.security.auth.kerberos.ServicePermission "*", "accept";
+  permission java.lang.RuntimePermission "accessClassInPackage.sun.security.jgss";
+  permission java.security.SecurityPermission "getProperty.ssl.KeyManagerFactory.algorithm";
+  permission java.lang.reflect.ReflectPermission "suppressAccessChecks";
+  permission java.lang.RuntimePermission "accessDeclaredMembers";
+};
