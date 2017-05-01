@@ -1,1 +1,6 @@
 here, the dependency jars should be placed same path with kbrdemo-1.0.0.jar  
+dependencies:
+commons-codec-1.4.jar
+hadoop-auth-2.7.3.jar
+slf4j-api-1.7.10.jar
+slf4j-log4j12-1.7.10.jar
