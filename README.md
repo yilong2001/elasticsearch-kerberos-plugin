@@ -6,7 +6,7 @@ Kerberos/SPNEGO custom plugin for Elasticsearch v5.3.0
 Authenticate HTTP and REST requests via Kerberos/SPNEGO.
 
 ###License
-Apache License 2.0 
+* Apache License 2.0 
 
 ###Features
 * Kerberos/SPNEGO REST/HTTP authentication
@@ -17,8 +17,8 @@ Apache License 2.0
 * Client as a example
 
 ###support
-WeChat: yilong2001
-email: yilong2001@126.com
+* WeChat: yilong2001
+* email: yilong2001@126.com
 
 ###Prerequisites
 * Elasticsearch 5.3.0
