@@ -9,7 +9,6 @@ grant {
   permission javax.security.auth.AuthPermission "getSubject";
   permission javax.security.auth.kerberos.ServicePermission "*", "accept";
   permission java.lang.RuntimePermission "accessClassInPackage.sun.security.jgss";
-  permission java.security.SecurityPermission "getProperty.ssl.KeyManagerFactory.algorithm";
   permission java.lang.reflect.ReflectPermission "suppressAccessChecks";
   permission java.lang.RuntimePermission "accessDeclaredMembers";
 };
