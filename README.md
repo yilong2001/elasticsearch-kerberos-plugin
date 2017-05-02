@@ -32,6 +32,7 @@ compile, copy to the plugin path of ElasticSearch
 *     $ mvn clean package
 
 ###Configuration
+*     export ES_JAVA_OPTS="${ES_JAVA_OPTS} -Djava.security.policy=/whole path/plugin-security.policy"
 
 Configuration is done in elasticsearch.yml
 * kbrdemo:
