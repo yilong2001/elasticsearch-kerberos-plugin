@@ -55,5 +55,13 @@ Configuration is done in elasticsearch.yml
 
 Or with a browser that supports SPNEGO like Chrome or Firefox
 
+###特性
+*     支持kerberos认证
+*     支持基于 rest api 的kerberos认证，即可以对部分 api 做kerberos认证；
+*     使用jaas.conf文件
+*     不依赖ES的扩展包
+*     基于ES本身的配置文件，不需要额外增加配置文件
+*     提供了client示例，可以执行ES的kerberos认证
+
 如果需要帮助，联系邮箱：yilong2001@126.com, 或微信yilong2001
 
