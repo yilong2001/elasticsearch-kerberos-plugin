@@ -63,5 +63,4 @@ Or with a browser that supports SPNEGO like Chrome or Firefox
 *     基于ES本身的配置文件，不需要额外增加配置文件
 *     提供了client示例，可以执行ES的kerberos认证
 
-如果需要帮助，联系邮箱：yilong2001@126.com, 或微信yilong2001
 
